@@ -1,0 +1,182 @@
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat"
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.iphone6 {
+width: 50%;
+transform: rotate(25deg);
+position: absolute;
+right: 30%;
+}
+
+/* Features Section*/
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feat-div {
+  padding: 5%;
+  text-align: center;
+}
+
+.icon {
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.dog-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+.pricing-title {
+  text-align: center;
+  margin: 5% 3% 0;
+}
+
+.cards {
+  margin-top: 0;
+  padding-bottom: 0;
+}
+
+@media (max-width: 1118px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .iphone6 {
+  position: static;
+  transform: rotate(0deg);
+  }
+}
+
+/* Call to Action Section */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.call-section {
+  padding: 5%;
+  color: #fff;
+  width: 60%;
+}
+
+/* Footer Section */
+
+#footer {
+  background-color: #fff;
+}
+
+.footer-section {
+  text-align: center;
+  padding: 5%;
+}
+
+.footer-icon {
+  margin: 1% 1% 2%;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+h3 {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  padding-top: 1rem;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
